@@ -1,0 +1,2 @@
+#!/bin/bash
+head | cut -b 1 | tr "\n" " " | cut -d " " -f 1- | tr -d " "
